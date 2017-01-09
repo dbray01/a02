@@ -46,4 +46,18 @@ def run_tests():
 
 def season(month):
 
+    if month.lower() == "jan" or "feb" or "dec":
+        print("Winter")
 
+    elif month.lower() == "mar" or "apr" or "may":
+        print("Spring")
+
+    elif month.lower() == "jun" or "jul" or "aug":
+        print("Summer")
+
+    elif month.lower() == "sep" or "oct" or "nov":
+        print("Autumn")
+
+    else:
+        print("Month not recongnised")
+  
